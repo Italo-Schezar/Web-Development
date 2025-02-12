@@ -1,0 +1,173 @@
+body {
+    background: #f4f2ec url(../Imagem/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+header {
+    height: 180px;
+    background-image: url(../Imagem/fundo.png);
+ 
+}
+
+header>ul, footer>ul {
+    width: 550px;
+    font-size: 13px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 45%;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+header>ul a, footer>ul a {
+    text-decoration: none;
+    color: rgb(168, 110, 19);
+}
+
+header>ul a:hover, footer>ul a:hover {
+    color: rgb(24, 146, 34);
+    text-decoration: underline;
+}
+
+
+header img {
+    padding: 0em 10em;
+    position: absolute;
+}
+
+nav{
+    width: 1025px;
+    height: 73em;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: -70px;
+    
+}
+
+#spot{
+    background-image: url(../Imagem/museu.png);
+    width: 54em;
+    height: 325px;
+    background-color: white;
+    z-index: 1;
+}
+
+#spot1{
+    background-image: url(../Imagem/depoimento.png) ;
+    width: 340px;
+    height: 320px;
+    margin-left: 2%;
+    background-color: white;
+    z-index: 1;
+}
+
+.spot2{
+    width: 31%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: left;
+}
+
+#contato{
+    height: 13em;
+    width: 600px;
+    margin-top: -22px;
+    background-color: rgb(241, 231, 204)
+}
+
+#contato h3{
+    text-transform: uppercase;
+    color: rgb(141, 94, 41);
+}
+
+#contato1{
+    border: 1px solid #f4f2ec;
+    height: 31.2em;
+    width: 420px;
+    margin-top: -20px;
+}
+
+#contato1 h3 {
+    text-transform: uppercase;
+    color: rgb(13, 116, 22);
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+}
+
+#galeria{
+    height: 30em;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(235, 231, 221);
+}
+
+#galeria h3 {
+    width: 300px;
+    color: rgb(141, 94, 41);
+}
+
+#img{
+    height: 100px;
+    width: 90px;
+    background-image: url(../Imagem/fundo-foto.png);
+    padding: 17px 15px 17px 15px;
+}
+
+#ingresso {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+footer>ul {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+footer>div {
+    margin-left: 35%;
+}
+
+#maps{
+    margin-top: -120px;
+}
+
+#historia{
+    margin-top: -110px;
+}
+
+#submit {
+    margin-left: 70px;
+    margin-top: 15px;
+    background-color: rgb(155, 146, 113);
+    color: #f4f2ec;
+    padding: 4px;
+}
+
+#espacamento h3{
+    text-transform: uppercase;
+    color: rgb(13, 116, 22);
+    text-align: left;
+}
+
+#espacamento {
+    margin-top: -9.8px;
+   text-align: left;
+}
+
+#titulo {
+    margin-left: -120px ;
+}
